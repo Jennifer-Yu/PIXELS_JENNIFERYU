@@ -27,15 +27,15 @@ int main() {
       b = 255;
       //deep sky blue
 
-      if (i%2==0) {
+      if (i%8==0) {
         r = 30;
         g = 144;
         b = 255;
         //dodger blue
       }
 
-      if (j%2==0) {
-        if (i%2==0) {
+      if (j%8==0) {
+        if (i%8==0) {
           r = 144;
           g = 238;
           b = 144;
